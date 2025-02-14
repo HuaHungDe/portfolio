@@ -25,12 +25,32 @@
 }
 
 .list__item {
+    cursor: pointer;
     height: 60px;
     display: inline-block;
+    margin-right: 24px;
 }
 
 .list__item:last-child {
     margin-right: 0;
+}
+
+.list__item:hover .list__item-link {
+    text-shadow: 
+    0 0 0.5rem #2600ff,
+    0 0 1rem #1100ff,
+    0 0 1.5rem #001aff,
+    0 0 1.6rem #003cff,
+    0 0 2rem #0026ff,
+    0 0 3rem #001aff,
+    0 0 4rem #2600ff,
+    0 0 5rem #1100ff;
+}
+
+.list__item-link:hover {
+    background-color: rgb(0, 0, 97);
+    box-shadow: 0 0 20px 3px rgba(34, 34, 253, 0.753);
+    text-shadow: 5px blue 5px blue 5px blue;
 }
 
 .list__item-link {
@@ -38,4 +58,9 @@
     color: var(--white-color);
     padding: 12px;
     line-height: 60px;
+    border-radius: 12px;
+}
+
+.nav__icon-item {
+    margin-right: 4px;
 }
