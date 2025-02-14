@@ -1,0 +1,7 @@
+@import url(/src/styles/base/global_styles.css);
+@import url(/src/styles/base/reset.css);
+@import url(/src/styles/base/variables.css);
+@import url(/src/styles/layout/footer.css);
+@import url(/src/styles/layout/grid.css);
+@import url(/src/styles/layout/header.css);
+@import url(/src/styles/layout/main_content.css);

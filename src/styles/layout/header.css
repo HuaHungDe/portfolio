@@ -1,0 +1,41 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: var(--bgr-color);
+}
+
+.header__nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+}
+
+.nav__list {
+    height: 60px;
+}
+
+.list__item {
+    height: 60px;
+    display: inline-block;
+}
+
+.list__item:last-child {
+    margin-right: 0;
+}
+
+.list__item-link {
+    font-size: 2rem;
+    color: var(--white-color);
+    padding: 12px;
+    line-height: 60px;
+}
